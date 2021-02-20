@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.ContactsApp;
 
 namespace WindowsFormsApp1
 {
@@ -15,6 +16,11 @@ namespace WindowsFormsApp1
         public ContactsUI()
         {
             InitializeComponent();
+        }
+
+        private void ContactsUI_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
